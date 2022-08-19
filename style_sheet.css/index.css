@@ -1,0 +1,244 @@
+.navbar .btn{
+    background-color: #FFFFFF;
+    color: #454545;
+    border: 0px; 
+    border-radius: 0px !important;
+}
+.navbar .btn:hover{
+    background-color: #d68989; 
+    border: 0px; 
+    color: white;
+}
+.navbar .navbar-brand{
+    font-family: "Alegreya Sans";
+    line-height:  33px;
+    font-size: 18px;
+}
+.navbar img{
+    width: 50%;
+}
+.navbar{
+    width: 85%;
+}
+.navbar a{
+    color: #DAE1E6 !important; 
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/full-1.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+#home a:hover{
+    color: white !important;
+}
+.homeContent .bton1{
+background-color: transparent;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+
+}
+.homeContent .bton1:hover{
+    background-color: #FFFFFF;
+
+    color: #121212;
+}
+.homeContent .bton2{
+    background-color: #FFFFFF ;
+    color:#121212;
+    border :2px solid transparent;
+    transition: all 0.5s;
+    }
+
+.homeContent .bton2:hover{
+        background-color: #FFFFFF ;
+        color:#121212;
+        opacity: 0.85;
+        border :2px solid transparent;
+}
+
+
+.border{
+    color: #89A0B3;
+}
+.icone{
+    /* color: transparent; */
+    width: 35px;
+    height: 35px;
+    border: 2px solid #D68889 ;
+    padding: 15px 15px;
+    background-color: #D68889;
+    color: white;
+    }
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #686868;
+    }
+.fourDivs p{
+        color: #888888;
+    }
+.fourDivs h5{
+        color: #303030;
+    }
+.buton{
+    background-color: #D68889;
+    color: #FFFFFF;
+}
+.homeContent h1{
+    font-family: 'Dancing Script';
+    font-size:100px !important;
+    line-height: 120px;
+    color: #ffffff;
+}
+.imgAndPar h4 , .ParAndImg h4 , .offers p{
+    color: #d68989;
+    font-family: 'Dancing Script';
+    font-size: 1.6rem ;
+    line-height: 3rem ;
+}
+.imgAndPar{
+    background-color: #FEFBFB;
+}
+.imgAndPar p , .ParAndImg p{
+    font-size: 18px;
+    line-height: 33px;
+}
+.image2{
+    background-image: url(../images/shutterstock_278636915.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+
+}
+.image1{
+    background-image: url(../images/shutterstock_217800487.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.image3{
+    background-image: url(../images/shutterstock_153136628.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.forPad{
+    padding: 130px 0px;
+}
+.fourDivs2{
+    color: white;
+    background: linear-gradient(-32deg,#d36d69,#d6adad);
+}
+.oneDiv h2{
+    Color:#303030;
+}
+.oneDiv img{
+    border-radius: 2%;
+}
+.oneDiv a{
+text-decoration: none;
+color:  #D68889;
+}
+.forBor{
+    border: 2px solid #EFEFEF;
+    border-radius: 2%;
+}
+.icn{
+    color: #D68889;
+}
+.offers{
+    width: 85%;
+}
+.divHover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    /* bottom: 0; */
+    opacity: 1;
+    color: #fff;
+    transition: all .3s;
+    transform: translate(0, 15px); 
+    background-color: yellow;
+    z-index: 77;
+    width: 100%;
+}
+.indicators{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-top: 30px !important;
+    background-color: #BFBFBF !important;
+}
+.carousel-inner h2{
+    line-height: 1.86em;
+}
+.conveinced{
+    background: linear-gradient(rgb(208,133,127,0.8), rgb(208,133,127 , 0.8)), url('../images/shutterstock_247462639.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 130px 0px;
+
+}
+.full{
+    background-image: url("http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png");
+}
+.last{
+    width: 85%;
+    color: #ACACAC;
+    font-size: 18px;
+
+}
+.last img{
+    /* width: 20%; */
+}
+.last a{
+    text-decoration: none;
+    color: #888888;
+}
+.last h4{
+    padding-bottom: 20px;
+    line-height: 1.38em;
+}
+.icone2{
+    padding: 7px;
+    border: 1px solid #F3F3F3;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    margin: 3px;
+}
+.copyRight{
+    background-color: #F3F3F3;
+}
+
+
+
+
+
+
+.bttn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 20px;
+
+}
+
+.bttn:hover{
+    background-color:white;
+    color: black;
+    border: 2px solid white;
+
+}
+
+.d{
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.ico{
+    background-color: #d68989; 
+}
+
+.cont p{
+    box-sizing: border-box;
+}
+
