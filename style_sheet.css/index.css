@@ -11,8 +11,8 @@
 }
 .navbar .navbar-brand{
     font-family: "Alegreya Sans";
-    line-height:  33px;
-    font-size: 18px;
+    line-height:  2rem;
+    font-size: 1rem;
 }
 .navbar img{
     width: 50%;
@@ -56,8 +56,6 @@ border: 1px solid #FFFFFF;
         opacity: 0.85;
         border :2px solid transparent;
 }
-
-
 .border{
     color: #89A0B3;
 }
@@ -150,13 +148,11 @@ color:  #D68889;
     position: absolute;
     top: 0;
     left: 0;
-    /* right: 0; */
-    /* bottom: 0; */
     opacity: 1;
     color: #fff;
     transition: all .3s;
     transform: translate(0, 15px); 
-    background-color: yellow;
+
     z-index: 77;
     width: 100%;
 }
@@ -176,7 +172,6 @@ color:  #D68889;
     background-size: cover;
     color: #ffffff;
     padding: 130px 0px;
-
 }
 .full{
     background-image: url("http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png");
@@ -185,10 +180,6 @@ color:  #D68889;
     width: 85%;
     color: #ACACAC;
     font-size: 18px;
-
-}
-.last img{
-    /* width: 20%; */
 }
 .last a{
     text-decoration: none;
@@ -208,37 +199,240 @@ color:  #D68889;
 .copyRight{
     background-color: #F3F3F3;
 }
-
-
-
-
-
-
 .bttn{
     background-color: transparent;
     border: 2px solid white;
     color: white;
     padding: 20px;
-
 }
-
 .bttn:hover{
     background-color:white;
     color: black;
     border: 2px solid white;
-
 }
-
 .d{
     box-sizing: border-box;
     padding-top: 15px;
 }
-
 .ico{
     background-color: #d68989; 
 }
-
 .cont p{
     box-sizing: border-box;
 }
+.floated{
+    position: fixed;
+    top:25vh;
+    right: 0;
+    color: #454545;
+    background-color: white;
+}
 
+.fa:hover{
+    color: rgb(48, 48, 255) !important;
+}
+
+.fa i{
+    color: rgb(48, 48, 255) ;
+}
+header a{
+    text-decoration: none;
+    color: #454545;
+}
+.header{
+    background-image: url("http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png");
+}
+
+.textContent{
+    line-height: 1.86em;
+}
+.SContent{
+    padding-top: 70px !important;
+    padding-bottom: 85px !important;   
+    background-image: url(http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png?id=48) ;
+}
+.TContent h2 , .TContent p{
+    line-height: 1.38em;
+    font-size:  30px;
+}.TContent p{
+    font-size: 1em;
+    color: #686868;
+}
+.TContent h2 , .oneDiv h4{
+    color: #303030;
+}
+.heartBink{
+    color: #D68889;
+}
+.oneDiv h3{
+    line-height: 1.38em;
+}
+.textCON{
+    background-color:#FFFFFF ;
+    border: 1px solid transparent ;
+}
+
+.FOContent
+{
+    background-color: #FEFBFB; 
+}
+.icone3{
+    padding: 7px;
+    border: 1px solid #E2E2E2;
+    border-radius: 50%;
+    margin: 3px;
+}
+.navdivs .active{
+    background-color: #D68889 !important;
+}
+.navdivs button{
+    background-color: #A4A4A4 !important;
+    color: white !important;
+}
+.navdivs button:hover{
+    color: #686868 !important;
+}
+body{
+    font-family: "Alegreya";
+    color: #686868;
+    line-height: 1.86em;
+    }
+.OFFER{
+    background-image: url(http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png?id=48) ;
+}
+nav button:hover{
+    Color:#444444 !important;
+}
+.nav button{
+    Color:#999999 !important;
+}
+.nav .active{
+    Color:#444444 !important;
+}
+.methods i{
+    color: #D68889;
+}
+
+.meth{
+    width: 85% !important;
+}
+.quote{
+    background-color:#D68889  ;
+    transition: all 0.5s;
+    color: white;
+}
+.quote:hover{
+    background-color:#444444 ;
+}
+
+/* span{
+    color: #999999;
+} */
+a{
+    text-decoration: none;
+}
+.fade a{
+color: #444444;
+}
+.oneParg{
+    line-height: 2rem;
+    font-size: 1rem;
+    border: 2px solid #EFEFEF;
+}
+.oneParg h5{
+    line-height: 3rem;
+    color: #aaa;
+}
+.oneParg h3{
+    color: #333;
+}.oneParg a{
+color: #666;
+}
+.full h5 ,.full h4,.full h5 , .full i , .full a{
+    font-size: 1rem;
+}
+.smallImg{
+    width: 60%;
+    border-radius: 50%;
+}
+.largeImg{
+    width: 100%;
+    border-radius: 50%;
+}
+.forHover a:hover {
+    color: #D68889 !important;
+}
+.btnForHover:hover{
+    background-color:#D68889 !important ;
+}
+.btn-dark{
+    background-color:  #d68989 !important;
+    border:2px solid transparent;
+    font-size: 12px;
+    font-family: 'Open Sans', arial;
+    border-radius: 4px;
+    line-height: 1.3rem;
+    color: #fff;
+}
+#comment{
+border: 1px solid #e6e6e6;
+}
+.input-group{
+   color:#55595c ; 
+}
+.theForm{
+    color: #303030;
+    line-height: 3rem;
+}
+.theForm p{
+    color:#686868
+}
+.cicleComment{
+color: #303030;
+line-height: 3rem;
+}
+.forQoutes p:before{
+    content: open-quote;
+    margin-right: 8px;
+    font-size: 52px;
+    opacity: .4;
+    line-height: 24px;
+}
+.forQoutes p:after{
+    content: close-quote;
+    margin-right: 8px;
+    font-size: 52px;
+    opacity: .4;
+    line-height: 24px;
+}
+.forQoutes{
+border-left: 3px solid #e4e4e4;
+}
+.btn-outline-secondary:hover{
+background-color: #D68889 !important;
+border: transparent !important;
+}
+.btn-outline-secondary{
+    color:#FFFFFF ;
+    border: 1px solid rgba(0,0,0,.1);
+    font-size: 14px;
+    color: #333;
+}
+
+.forHoverWithColor{
+    background-color: #F5F5F5;
+}.fa-border-all{
+    color:#494949;
+}
+.borderWidth{
+    border-width: 100% !important;
+}.firstTD{
+    color: #8F8F8F !important;
+
+}
+.full h4{
+    color: #555555;
+}
+.full p , .full h5 , .full span{
+    color: #797979;
+}
