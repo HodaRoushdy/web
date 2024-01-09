@@ -11,8 +11,8 @@
 }
 .navbar .navbar-brand{
     font-family: "Alegreya Sans";
-    line-height:  33px;
-    font-size: 18px;
+    line-height:  2rem;
+    font-size: 1rem;
 }
 .navbar img{
     width: 50%;
@@ -26,8 +26,8 @@
 }
 #home{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/full-1.jpg);
-    background-size: 100% 100%;
-    background-position: center center;
+    background-size:cover;
+    background-position: center;
 }
 #home a:hover{
     color: white !important;
@@ -56,13 +56,10 @@ border: 1px solid #FFFFFF;
         opacity: 0.85;
         border :2px solid transparent;
 }
-
-
 .border{
     color: #89A0B3;
 }
 .icone{
-    /* color: transparent; */
     width: 35px;
     height: 35px;
     border: 2px solid #D68889 ;
@@ -176,7 +173,6 @@ color:  #D68889;
     background-size: cover;
     color: #ffffff;
     padding: 130px 0px;
-
 }
 .full{
     background-image: url("http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png");
@@ -185,10 +181,6 @@ color:  #D68889;
     width: 85%;
     color: #ACACAC;
     font-size: 18px;
-
-}
-.last img{
-    /* width: 20%; */
 }
 .last a{
     text-decoration: none;
@@ -208,37 +200,143 @@ color:  #D68889;
 .copyRight{
     background-color: #F3F3F3;
 }
-
-
-
-
-
-
 .bttn{
     background-color: transparent;
     border: 2px solid white;
     color: white;
     padding: 20px;
-
 }
-
 .bttn:hover{
     background-color:white;
     color: black;
     border: 2px solid white;
-
 }
-
 .d{
     box-sizing: border-box;
     padding-top: 15px;
 }
-
 .ico{
     background-color: #d68989; 
 }
-
 .cont p{
     box-sizing: border-box;
 }
+.floated{
+    position: fixed;
+    top:25vh;
+    right: 0;
+    color: #454545;
+    background-color: white;
+}
 
+.fa:hover{
+    color: rgb(48, 48, 255) !important;
+}
+
+.fa i{
+    color: rgb(48, 48, 255) ;
+}
+header a{
+    text-decoration: none;
+    color: #454545;
+}
+.header{
+    background-image: url("http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png");
+}
+
+.textContent{
+    line-height: 1.86em;
+}
+.SContent{
+    padding-top: 70px !important;
+    padding-bottom: 85px !important;   
+    background-image: url(http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png?id=48) ;
+}
+.TContent h2 , .TContent p{
+    line-height: 1.38em;
+    font-size:  30px;
+}.TContent p{
+    font-size: 1em;
+    color: #686868;
+}
+.TContent h2 , .oneDiv h4{
+    color: #303030;
+}
+.heartBink{
+    color: #D68889;
+}
+.oneDiv h3{
+    line-height: 1.38em;
+}
+.textCON{
+    background-color:#FFFFFF ;
+    border: 1px solid transparent ;
+}
+
+.FOContent
+{
+    background-color: #FEFBFB; 
+}
+.icone3{
+    padding: 7px;
+    border: 1px solid #E2E2E2;
+    border-radius: 50%;
+    margin: 3px;
+}
+.navdivs .active{
+    background-color: #D68889 !important;
+}
+.navdivs button{
+    background-color: #A4A4A4 !important;
+    color: white !important;
+}
+.navdivs button:hover{
+    color: #686868 !important;
+}
+body{
+    font-family: "Alegreya";
+    color: #686868;
+    line-height: 1.86em;
+    }
+.OFFER{
+    background-image: url(http://www.engage.veented.com/wedding/wp-content/uploads/sites/6/2017/04/symphony-1.png?id=48) ;
+}
+nav button:hover{
+    Color:#444444 !important;
+}
+.nav button{
+    Color:#999999 !important;
+}
+.nav .active{
+    Color:#444444 !important;
+}
+.methods i{
+    color: #D68889;
+}
+/* .methods{
+    width: 70% !important;
+
+} */
+.meth{
+    width: 85% !important;
+}
+.quote{
+    background-color:#D68889  ;
+    transition: all 0.5s;
+    color: white;
+}
+.quote:hover{
+    background-color:#444444 ;
+}
+.simplePost{
+    border: 2px solid #EFEFEF;
+}
+span{
+    color: #999999;
+}
+a{
+    text-decoration: none;
+}
+.fade a{
+color: #444444;
+}
